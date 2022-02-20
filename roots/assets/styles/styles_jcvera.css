@@ -6,12 +6,32 @@ body{
 }
 article{
     background-color: rgb(44, 43, 43);
+    padding: 1.5rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+nav>ul>li {
+    list-style: none;
+}
+nav>ul>li>a {
+    text-decoration: none;
 }
 
 /* referencia por clase */
 
 .resaltado{
     color: yellow;
+}
+.ilustracion{
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    display: inline-block;
+}
+.figcaption{
+    margin-top: 1rem ;
+    margin-left: 1rem ;
+    font-style: italic;
 }
 
 /* referencia por id */
@@ -22,4 +42,7 @@ article{
 }
 #fecha{
     font-size: medium;
+}
+#footer_blog{
+    margin: 2rem;
 }
