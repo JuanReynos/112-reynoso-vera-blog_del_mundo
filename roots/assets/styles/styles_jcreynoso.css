@@ -63,8 +63,3 @@ nav>ul>li{
 nav>ul>li>a{
     text-decoration: none;
 }
-.figcaption{
-    margin-top: 1rem ;
-    margin-left: 1rem ;
-    font-style: italic;
-}
