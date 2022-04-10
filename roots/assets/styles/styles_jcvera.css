@@ -29,6 +29,11 @@ nav>ul {
     border-bottom: 1px solid #fff;
     padding: 0.5rem;
 }
+article>header>hgroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* referencia por clase */
 
 .resaltado{
