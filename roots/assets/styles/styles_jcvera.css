@@ -34,6 +34,33 @@ article>header>hgroup {
     align-items: center;
     justify-content: space-between;
 }
+article>header>hgroup>h2 {
+    display: flex;
+    align-items: center;
+}
+article>header>hgroup>h2>img {
+    margin-right: 1rem;
+}
+aside>h2 {
+    align-items: center;
+    font-size: 1.3rem;
+}
+aside div:nth-last-of-type(even){
+    background-color: rgb(44, 43, 43);
+}
+aside>div>img {
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+aside>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+aside>div>img {
+    margin-right: 1rem;
+}
 /* referencia por clase */
 
 .resaltado{
@@ -63,6 +90,17 @@ article>header>hgroup {
 }
 #footer_blog{
     margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0rem 4rem 0rem;
+    font-size: 1.3rem;
+}
+#footer_blog div:nth-of-type(2){
+    font-size: 0.9rem;
+}
+#footer_header {
+    padding-bottom: 0rem;
 }
 
 /* grid */
