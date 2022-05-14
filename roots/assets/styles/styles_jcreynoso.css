@@ -113,6 +113,8 @@ aside>div {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: dashed;
+    padding: 0.5rem;
 }
 aside>div>img {
     margin-right: 1rem;
