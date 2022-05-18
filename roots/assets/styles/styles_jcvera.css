@@ -46,8 +46,6 @@ nav {
     }
 }
 
-/* Fin */
-
 /* pantalla pequeña */
 @media (max-width: 1100px) {
     nav>ul {
@@ -137,7 +135,7 @@ img {
 
 #titulo_de_blog {
     text-align: center;
-    font-size: 3rem;
+    font-size: clamp(2rem, 1vw + 2rem, 7rem);
 }
 
 #fecha {
